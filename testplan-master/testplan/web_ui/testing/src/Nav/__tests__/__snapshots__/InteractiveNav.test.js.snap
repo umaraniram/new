@@ -1,0 +1,174 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`InteractiveNav shallow renders and matches snapshot 1`] = `
+<Fragment>
+  <NavBreadcrumbs
+    entries={
+      Array [
+        Object {
+          "counter": Object {
+            "failed": 0,
+            "passed": 0,
+          },
+          "entries": Array [
+            Object {
+              "category": "multitest",
+              "counter": Object {
+                "failed": 0,
+                "passed": 0,
+              },
+              "description": null,
+              "entries": Array [
+                Object {
+                  "category": "testsuite",
+                  "counter": Object {
+                    "failed": 0,
+                    "passed": 0,
+                  },
+                  "description": null,
+                  "entries": Array [
+                    Object {
+                      "counter": Object {
+                        "failed": 0,
+                        "passed": 0,
+                      },
+                      "description": null,
+                      "entries": Array [],
+                      "logs": Array [],
+                      "name": "test_interactive",
+                      "name_type_index": Array [],
+                      "runtime_status": "ready",
+                      "status": "unknown",
+                      "status_override": null,
+                      "suite_related": false,
+                      "tags": Object {},
+                      "tags_index": Object {},
+                      "timer": Object {},
+                      "type": "TestCaseReport",
+                      "uid": "ddd",
+                    },
+                  ],
+                  "logs": Array [],
+                  "name": "Interactive Suite",
+                  "name_type_index": Array [],
+                  "part": null,
+                  "runtime_status": "ready",
+                  "status": "unknown",
+                  "status_override": null,
+                  "tags": Object {},
+                  "tags_index": Object {},
+                  "timer": Object {},
+                  "type": "TestGroupReport",
+                  "uid": "ccc",
+                },
+              ],
+              "logs": Array [],
+              "name": "Interactive MTest",
+              "name_type_index": Array [],
+              "part": null,
+              "runtime_status": "ready",
+              "status": "unknown",
+              "status_override": null,
+              "tags": Object {},
+              "tags_index": Object {},
+              "timer": Object {},
+              "type": "TestGroupReport",
+              "uid": "bbb",
+            },
+          ],
+          "meta": Object {},
+          "name": "Fake Interactive Report",
+          "name_type_index": Array [],
+          "runtime_status": "ready",
+          "status": "unknown",
+          "status_override": null,
+          "tags_index": Object {},
+          "timer": null,
+          "uid": "aaa",
+        },
+      ]
+    }
+    handleNavClick={[MockFunction]}
+  />
+  <InteractiveNavList
+    autoSelect={[Function]}
+    breadcrumbLength={1}
+    displayEmpty={true}
+    displayTags={false}
+    displayTime={false}
+    entries={
+      Array [
+        Object {
+          "category": "multitest",
+          "counter": Object {
+            "failed": 0,
+            "passed": 0,
+          },
+          "description": null,
+          "entries": Array [
+            Object {
+              "category": "testsuite",
+              "counter": Object {
+                "failed": 0,
+                "passed": 0,
+              },
+              "description": null,
+              "entries": Array [
+                Object {
+                  "counter": Object {
+                    "failed": 0,
+                    "passed": 0,
+                  },
+                  "description": null,
+                  "entries": Array [],
+                  "logs": Array [],
+                  "name": "test_interactive",
+                  "name_type_index": Array [],
+                  "runtime_status": "ready",
+                  "status": "unknown",
+                  "status_override": null,
+                  "suite_related": false,
+                  "tags": Object {},
+                  "tags_index": Object {},
+                  "timer": Object {},
+                  "type": "TestCaseReport",
+                  "uid": "ddd",
+                },
+              ],
+              "logs": Array [],
+              "name": "Interactive Suite",
+              "name_type_index": Array [],
+              "part": null,
+              "runtime_status": "ready",
+              "status": "unknown",
+              "status_override": null,
+              "tags": Object {},
+              "tags_index": Object {},
+              "timer": Object {},
+              "type": "TestGroupReport",
+              "uid": "ccc",
+            },
+          ],
+          "logs": Array [],
+          "name": "Interactive MTest",
+          "name_type_index": Array [],
+          "part": null,
+          "runtime_status": "ready",
+          "status": "unknown",
+          "status_override": null,
+          "tags": Object {},
+          "tags_index": Object {},
+          "timer": Object {},
+          "type": "TestGroupReport",
+          "uid": "bbb",
+        },
+      ]
+    }
+    envCtrlCallback={[MockFunction]}
+    filter={null}
+    handleNavClick={[MockFunction]}
+    handlePlayClick={[MockFunction]}
+    selectedUid="aaa"
+  />
+</Fragment>
+`;

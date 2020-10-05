@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`InteractiveNavList shallow renders and matches snapshot 1`] = `
+<Column
+  width="28em"
+>
+  <ListGroup
+    className="buttonList_mjw45f"
+    tag="ul"
+  >
+    <ListGroupItem
+      className="navButton_1x055n9-o_O-navButtonInteract_1ofjo98-o_O-unselectable_16maxrd"
+      key="bbb"
+      onClick={[Function]}
+      tabIndex="1"
+      tag="li"
+    >
+      <InteractiveNavEntry
+        caseCountFailed={0}
+        caseCountPassed={0}
+        envCtrlCallback={[Function]}
+        handlePlayClick={[Function]}
+        name="Interactive MTest"
+        runtime_status="ready"
+        status="unknown"
+        type="multitest"
+      />
+    </ListGroupItem>
+  </ListGroup>
+</Column>
+`;

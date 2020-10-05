@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FilterBox shallow renders the correct HTML structure 1`] = `
+<div
+  className="searchBox_1yfus1e"
+  style={
+    Object {
+      "width": "19.5em",
+    }
+  }
+>
+  <input
+    className="searchBoxInput_kcbf9x"
+    onKeyUp={[MockFunction]}
+    placeholder=" Filter"
+    type="text"
+  />
+</div>
+`;

@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NavList shallow renders and matches snapshot 1`] = `
+<Column
+  width="22em"
+>
+  <ListGroup
+    className="buttonList_mjw45f"
+    tag="ul"
+  >
+    <ListGroupItem
+      className="navButton_1x055n9-o_O-navButtonInteract_1ofjo98-o_O-unselectable_16maxrd"
+      key="123"
+      onClick={[Function]}
+      tabIndex="1"
+      tag="li"
+    >
+      <NavEntry
+        caseCountFailed={0}
+        caseCountPassed={1}
+        displayTime={false}
+        executionTime={null}
+        name="test"
+        status="passed"
+      />
+    </ListGroupItem>
+  </ListGroup>
+</Column>
+`;

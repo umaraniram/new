@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NavBreadcrumbs shallow renders the correct HTML structure 1`] = `
+<div
+  className="navBreadcrumbs_koaten"
+>
+  <ul
+    className="breadcrumbContainer_1qdzaym"
+  >
+    <li
+      key="123"
+      onClick={[Function]}
+    >
+      <div
+        className="breadcrumbEntry_qbjkug-o_O-unselectable_16maxrd"
+      >
+        <NavEntry
+          caseCountFailed={0}
+          caseCountPassed={0}
+          displayTime={false}
+          executionTime={null}
+          name="test"
+          status="passed"
+          type="testplan"
+        />
+      </div>
+    </li>
+  </ul>
+</div>
+`;
